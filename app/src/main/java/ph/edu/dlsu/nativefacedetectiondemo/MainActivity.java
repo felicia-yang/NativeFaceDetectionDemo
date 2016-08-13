@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
             // load cascade file from application resources
             InputStream is = getResources().openRawResource(R.raw.lbpcascade_frontalface);
             File cascadeDir = getDir("cascade", Context.MODE_PRIVATE);
-            File mCascadeFile = new File(cascadeDir, "lbpcascade_fingerpad.xml");
+            File mCascadeFile = new File(cascadeDir, "lbpcascade_frontalface.xml");
             FileOutputStream os = new FileOutputStream(mCascadeFile);
 
             byte[] buffer = new byte[4096];
