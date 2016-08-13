@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NativeFaceDetectionDemo</string>
+    <string name="delete_alert_title">WARNING!</string>
+    <string name="photo_delete_prompt_message"> This photo is saved
+in your Gallery. Are you sure you want to delete the photo?</string>
+    <string name="delete">Delete</string>
+    <string name="photo_send_extra_subject">Dibdib Advocacy App: Breast Selfie</string>
+    <string name="photo_send_extra_text">Let\'s fight breast cancer together!</string>
+    <string name="photo_send_chooser_title">Share Breast Selfie via</string>
+</resources>
